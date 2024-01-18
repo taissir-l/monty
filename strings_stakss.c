@@ -21,7 +21,7 @@ void char_printer(stack_t **stack, unsigned int l_num)
  * str_printer - function prints a string.
  *
  * @stack: the pointer to a pointer pointing to top node of stack.
- * @l_num: Interger of the line number of the opcode.
+ * @ln: Interger line number the opcode.
  */
 void str_printer(stack_t **stack, __attribute__((unused))unsigned int ln)
 {
@@ -49,7 +49,7 @@ void str_printer(stack_t **stack, __attribute__((unused))unsigned int ln)
  * rotl - function that rotates the first node of the stack to the bottom.
  *
  * @stack: the pointer to a pointer pointing to top node of stack.
- * @l_num: Interger of the line number of the opcode.
+ * @ln: Interger line number the opcode.
  */
 void rotl(stack_t **stack, __attribute__((unused))unsigned int ln)
 {
@@ -70,7 +70,7 @@ void rotl(stack_t **stack, __attribute__((unused))unsigned int ln)
  * rotr - function to otates the last node of the stack to the top.
  *
  * @stack: the pointer to a pointer pointing to top node of stack.
- * @l_num: Interger of the line number of the opcode.
+ * @ln: Interger line number the opcode.
  */
 void rotr(stack_t **stack, __attribute__((unused))unsigned int ln)
 {

@@ -75,6 +75,7 @@ int sep_lines(char *buffer, int l_num, int format)
  * @opcode: opcode.
  * @value: argument of opcode.
  * @format:  storage format.
+ * @ln: line number
  *
  * Return: void
  */
@@ -128,6 +129,7 @@ void func_finder(char *opcode, char *value, int ln, int format)
 void fun_caller(op_func func, char *op, char *val, int ln, int format)
 {
 	stack_t *node;
+	stack_t *head = NULL;
 	int f;
 	int i;
 
